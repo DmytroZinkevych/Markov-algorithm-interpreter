@@ -117,11 +117,11 @@ def run(command):
 #----------------------------------------------------------------------------------------------------------------------------
 
 while True:
-    mode = int(input("Welcome to Markov algorithm interpreter!\nIf you want to create a new algorithm enter\t'1'\nTo open existing algorithm enter\t\t'2'\n"))
-    if mode == 1:
+    mode = input("Welcome to Markov algorithm interpreter!\nIf you want to create a new algorithm enter\t'1'\nTo open existing algorithm enter\t\t'2'\n")
+    if mode == '1':
         run(newfile())
         break
-    elif mode == 2:
+    elif mode == '2':
         command = readfile()
         if command[(len(command)-1)][1] != "Error":
             run(command)
@@ -129,4 +129,4 @@ while True:
         else:
             break
     else:
-        print ("Error, try again...")
+        print ("\nError, try again...\n\n")
