@@ -1,5 +1,5 @@
 # Markov-algorithm-interpreter
-This is a simple Python program for creating files with commands for Markov algorithms and for interpreting them.
+This is a simple Python program for creating Markov algorithm command files and interpreting them.
 
 This program gives you possibility to create files (simple text files, .txt extension) with commands for Markov algorithms. Also you can run these files right after their creation or after next start of program.
 
