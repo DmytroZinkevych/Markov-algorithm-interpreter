@@ -34,7 +34,6 @@ def newfile ():
         else:
             break
     file.close()
-#    print("")
     return command
 
 def readfile():
