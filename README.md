@@ -1,7 +1,7 @@
 # Markov-algorithm-interpreter
 This is a simple Python program for creating Markov algorithm command files and interpreting them.
 
-This program gives you possibility to create files (simple text files, .txt extension) with commands for Markov algorithms. Also you can run these files right after their creation or after next start of program.
+This program gives you possibility to create files (simple text files, `.txt`-extension) with commands for Markov algorithms. Also you can run these files right after their creation or after next start of program.
 
 
 Operators:
@@ -21,7 +21,7 @@ Few examples of commands:
 
 
 IMPORTANT NOTE:
-Don't use space to separate operators and operands because program recognises it in the same way as other symbols. Also don't use operands which include '->' and '=>'.
+Don't use space to separate operators and operands because program recognises it in the same way as other symbols. Also don't use operands which include `->` and `=>`.
 
 
 For more information about Markov algorithms visit
