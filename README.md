@@ -6,18 +6,18 @@ This program gives you possibility to create files (simple text files, .txt exte
 
 Operators:
 
-  **->**  simple substitution formulas
+  **`->`**  simple substitution formulas
   
-  **=>**  final substitution formulas
+  **`=>`**  final substitution formulas
 
 
 Few examples of commands:
 
-  **A->B**  B replaces A in string
+  **`A->B`**  B replaces A in string
   
-  **C->**   deleting C from string
+  **`C->`**   deleting C from string
   
-  **D=>**   appending D to the front of string and stop program after that
+  **`D=>`**   appending D to the front of string and stop program after that
 
 
 IMPORTANT NOTE:
